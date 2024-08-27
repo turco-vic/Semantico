@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    pading: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Helvetica;
+    line-height: 1.5;
+    background-color: grey;
+    color: white;
+}
+
+.site-header {
+    background-color: aqua;
+    color: rgb(251, 251, 251);
+    padding: 1rem 0;
+    text-align: center;
+}
