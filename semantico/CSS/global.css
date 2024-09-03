@@ -17,3 +17,11 @@ body {
     padding: 1rem 0;
     text-align: center;
 }
+
+.nav-list {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
