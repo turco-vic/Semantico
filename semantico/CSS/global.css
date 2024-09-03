@@ -7,13 +7,13 @@
 body {
     font-family:Helvetica;
     line-height: 1.5;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(228, 228, 228);
     color: rgb(0, 0, 0);
 }
 
 .site-header {
-    background-color: aqua;
-    color: rgb(251, 251, 251);
+    background-color: rgb(87, 87, 87);
+    color: rgb(255, 255, 255);
     padding: 1rem 0;
     text-align: center;
 }
@@ -35,4 +35,113 @@ a {
     list-style: none;
     display: flex;
     justify-content: center;
+}
+
+.main-nav .nav-link{
+    margin: 0 15px;
+}
+
+.main-nav .nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav .nav-link:hover {
+    color: aqua;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.article{
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px aqua;
+    border-radius: 5px;
+}
+
+.article-header {
+    border-bottom: 2px solid;
+    margin-bottom: 15px;
+    padding-bottom: 2px solid;
+}
+
+.article-title {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.article-meta {
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+}
+
+.article-section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 1.4em;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 1.0;
+}
+
+.image-figure {
+    margin-top: 20px 0;
+}
+
+.article.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-caption {
+    text-align: center;
+    font-size: 0.10em;
+    color: rgb(255, 255, 255);
+    margin-top: 5px
+}
+
+.sidebar {
+    flex: 1;
+    background-color: rgb(175, 182, 182);
+    padding: 20px;
+    box-shadow: 0 2px 4px aqua;
+    border-radius: 5px;
+}
+
+.sidebar-title {
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.sidebar-text {
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+.site-footer{
+    background-color: rgb(87, 87, 87);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
