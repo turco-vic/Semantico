@@ -3,18 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/global.css">
-<header class="site-header">
-    <h1>Home</h1>
-    <nav class="main-nav">
-        <ul class="nav-list">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./pages/sobre.html">Sobre</a></li>
-            <li><a href="./pages/contato.html">Contato</a></li>
-        </ul>
-    </nav>
-</header>
+    <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
+    <header class="site-header">
+        <h1 class="site-title">Home</h1>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./pages/sobre.html">Sobre</a></li>
+                <li class="nav-item"><a href="./pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <article class="article">
+            <header class="article-header">
+                <h2 class="article-title">Bem vindo ao meu site!</h2>
+                <p class="section-text">texto aleatório na aula de marcação</p>
+            </header>
+            <section class="article-content">
+                <h3 class="sectiom-title">Introdução</h3>
+                <P class="section-text">Este conteúdo é indrodutório ao artigo</P>
+                <figure class="image-figure">
+                    <img src="image/totoro.png" alt="Totoro" class="article-image">
+                    <figcaption class="image-caption">Totoro</figcaption>
+                    <audio controls class="audio-player"> <source src="media/audio.mp3"> Seu navegador não suporta a tag audio.</audio>
+                </figure>
+            </section>
+
+            <footer class="article-footer"><p class="section-footer">Testando o rodapé</p></footer>
+        </article>
+        <aside class="sidebar"><h2 class="sidebar-title">Informações adicionais</h2>
+            <p class="sidebar-text">Este é um conteúdo complementar</p>
+        </aside>
+    </main>
+    <footer class="site-footer">
+        <address class="contact-info">
+            <p class="author-name">Autor: Enzo Alves Turcovic</p>
+            <p class="author-email">Email: <a href="mailto:enzoturcovic@gmail.com" class="email-link">enzoturcovic@gmail.com</a></p>
+        </address>
+        <p class="footer-copy">&copy;2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

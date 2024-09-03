@@ -1,14 +1,14 @@
 * {
     margin: 0;
-    pading: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family:Helvetica;
     line-height: 1.5;
-    background-color: grey;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .site-header {
@@ -24,4 +24,15 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.site-title {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.main-nav .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
